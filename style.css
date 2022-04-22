@@ -1,0 +1,136 @@
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: -10px;
+    margin-bottom: 15px;
+}
+
+.firstchild{
+    margin: 30px 0 0 -90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#fa-solid{
+    color: #EE5D52;
+}
+
+.secondchild{
+    display: flex;
+    margin: 10px -110px 0 0;
+}
+
+.button{
+    border: none;
+    background-color: #EE5D52;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#consultance{
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+#consultance:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    width: 102px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:#23335D;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Header ends here; body starts here*/
+
+.body{
+    background-color: #BEAD9D;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 350px;
+    margin: -8px;
+    padding: 150px ;
+    padding-left: 200px;
+}
+
+h2{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#EE5D52;
+    line-height: 10px;
+}
+
+#para1{
+    font-size: 40px;
+    color: #23335D;
+    font-weight: bold;
+}
+
+#para2{
+    line-height: 25px;
+}
+
+#image1{
+    width: 250px;
+    height: 400px;
+    float: right;
+    margin: -40px 70px 0px 0;
+}
+
+#button1{
+    border: none;
+    border-radius: 2px;
+    background-color: #EE5D52;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#button2{
+    border: none;
+    border-radius: 2px;
+    background-color: #E4E5EB;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    color: #23335D;
+}
+
+/*Body ends here; Footer starts here*/
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 200px;
+    background-color: white;
+    height: 100px;
+    color: #23335D;
+}
+
+#div1{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#div2{
+    padding-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
